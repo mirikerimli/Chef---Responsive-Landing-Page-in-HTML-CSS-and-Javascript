@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+html.active {
+  overflow: hidden;
+}
+
+body {
+  background-color: rgba(255, 241, 212, 1);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+h2 {
+  color: rgba(204, 153, 100, 1);
+  font-size: clamp(4.4rem, 4.107vw + 3.086rem, 9rem);
+  font-weight: 600;
+  line-height: clamp(4.4rem, 4.107vw + 3.086rem, 9rem);
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 138rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
